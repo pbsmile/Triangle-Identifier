@@ -1,0 +1,46 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Triangle Identifier</title>
+	<link rel="stylesheet" type="text/css" href="CSS.css">
+	<script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+</head>
+
+<body onload="first()">
+	<script src="Cal.js"></script>
+	<table  width="800" border="0" align="center">
+		<tbody><tr>
+			<td><h3 align="center">Triangle Identifier</h3>
+				<table width="300" border="0" align="center">
+					<tbody>
+						<tr>
+							<td><label for="numberA">Side A :</label></td>
+      						<td><input type="number" name="numberA" id="numberA" class="rcorners1"></td>
+    					</tr>
+    					<tr>
+      						<td><label for="numberB">Side B :</label></td>
+      						<td><input type="number" name="numberB" id="numberB" class="rcorners1"></td>
+    					</tr>
+    					<tr>
+      						<td><label for="numberC">Side C :</label></td>
+      						<td><input type="number" name="numberC" id="numberC" class="rcorners1"></td>
+    					</tr>
+    					<tr height="50">
+      						<td>&nbsp;</td>
+      						<td><button onclick="draw()" class="submit">Enter</button >
+								<button onclick="reload()" class="reset">Clear</button></td>
+    					</tr>
+					</tbody>
+				</table>
+			</td>
+			<td width="400" align="center">
+				<br><br>
+				<canvas id="canvas" width="350" height="300"></canvas><br>
+				<label id="typeTri">default</label>
+			</td>
+		</tr></tbody>
+	</table>
+</body>
+</html>
+

@@ -1,0 +1,79 @@
+@charset "utf-8";
+/* CSS Document */
+html {
+	font-family: 'Ekkamai Standard', Tahoma;
+}
+body {
+  background-color: mistyrose;
+}
+table {
+	font-size: 22px;
+}
+input.rcorners1 {
+	border-radius: 10px;
+	background-color: #FFF752;
+  	padding: 20px; 
+  	width: 140px;
+  	height: 0.5px;
+}
+
+.triangle-right {
+	width: 0;
+	height: 0;
+	border-top: 0px solid transparent;
+	border-right: 50px solid transparent;
+	border-bottom: 100px solid #FF0004;
+	border-left: 50px solid transparent;
+	
+}
+
+.submit {
+	box-shadow:inset 0px 1px 0px 0px #dcecfb;
+	background:linear-gradient(to bottom, #bddbfa 5%, #80b5ea 100%);
+	background-color:#bddbfa;
+	border-radius:6px;
+	border:1px solid #84bbf3;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:'Ekkamai Standard', Tahoma;
+	font-size:15px;
+	font-weight:bold;
+	padding:6px 24px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #528ecc;
+}
+.submit:hover {
+	background:linear-gradient(to bottom, #80b5ea 5%, #bddbfa 100%);
+	background-color:#80b5ea;
+}
+.submit:active {
+	position:relative;
+	top:1px;
+}
+
+.reset {
+	box-shadow:inset 0px 1px 0px 0px #efdcfb;
+	background:linear-gradient(to bottom, #dfbdfa 5%, #bc80ea 100%);
+	background-color:#dfbdfa;
+	border-radius:6px;
+	border:1px solid #c584f3;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:'Ekkamai Standard', Tahoma;
+	font-size:15px;
+	font-weight:bold;
+	padding:6px 24px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #9752cc;
+}
+.reset:hover {
+	background:linear-gradient(to bottom, #bc80ea 5%, #dfbdfa 100%);
+	background-color:#bc80ea;
+}
+.reset:active {
+	position:relative;
+	top:1px;
+}
+
